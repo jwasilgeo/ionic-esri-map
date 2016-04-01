@@ -15,4 +15,4 @@ _This is a work in progress._
 - Continue with **Step 3** of the Ionic getting started guide.
 
 ## Proof
-![example-screen](https://raw.github.com/jwasilgeo/ionic-esri-map/master/example-screen.png)
+![example-screen](https://raw.github.com/jwasilgeo/ionic-esri-map/master/example-screen.PNG)
