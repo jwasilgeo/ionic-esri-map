@@ -2,7 +2,7 @@ angular.module('starter.controllers', [])
 
 .controller('HomeCtrl', function($scope) {})
 
-.controller('EsriCtrl', function(esriLoader, $ionicScrollDelegate) {
+.controller('EsriCtrl', function(esriLoader) {
   var self = this;
 
   esriLoader.require(['esri/Map'], function(Map) {
