@@ -5,6 +5,21 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title></title>
 
+    <meta http-equiv="Content-Security-Policy"
+          content="
+            default-src
+                'self'
+                http://js.arcgis.com
+                http://static.arcgis.com
+                http://services.arcgisonline.com
+                http://server.arcgisonline.com;
+            font-src
+                'self'
+                http://js.arcgis.com
+                data:;
+            style-src 'self' http://js.arcgis.com 'unsafe-inline';
+            script-src 'self' http://js.arcgis.com http://npmcdn.com 'unsafe-eval'">
+
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
