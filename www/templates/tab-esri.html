@@ -1,19 +1,21 @@
 <ion-view view-title="Esri">
   <ion-content class="padding" scroll="true">
 
-    <h2>Esri JSAPI 4.x in Ionic</h2>
+    <h2>Esri JSAPI 3.x in Ionic</h2>
 
-    <esri-map-view
-      map="vm.map"
-      view-options="{
-        zoom: 7, center: [90.45, 27.5]
+    <esri-map
+      id="esriMap"
+      map-options="{
+        basemap: 'topo',
+        center: [90.45, 27.5],
+        zoom: 7
       }">
-    </esri-map-view>
+    </esri-map>
 
     <div class="row">
       <div class="col">
-        <a class="button button-outline button-dark icon-left ion-social-octocat" href="http://esri.github.io/angular-esri-map/">
-          Angular-Esri-Map
+        <a class="button button-outline button-dark icon-left ion-social-octocat" href="http://arcgis.github.io/angular-esri-map-site-v1/">
+          angular-esri-map v1
         </a>
       </div>
     </div>
