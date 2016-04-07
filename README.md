@@ -12,8 +12,8 @@ _This is a work in progress._
 
 ## Development
 - Do everything described in **Step 1** here: [Getting Started with Ionic](http://ionicframework.com/getting-started/)
-- Download and then navigate to the contents of this repository. You may also have to `npm install`.
-- Continue with **Step 3** of the Ionic getting started guide.
+- Download and then navigate to the contents of this repository. You will also have to `npm install` for **each of the apps** in the `apps` directory.
+- Continue with **Step 3** of the Ionic getting started guide for one of the apps in the `apps` directory.
 
 ## Proof
 ![example-screen](https://raw.github.com/jwasilgeo/ionic-esri-map/master/example-screen.PNG)
