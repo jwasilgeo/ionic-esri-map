@@ -11,8 +11,10 @@ _This is a work in progress._
 
 ## Development
 - Do everything described in **Step 1** here: [Getting Started with Ionic](http://ionicframework.com/getting-started/)
-- Download and then navigate to the contents of this repository. You may also have to `npm install`.
-- Continue with **Step 3** of the Ionic getting started guide.
+- Create a project using `ionic start IonicMap blank` or use some other project name you feel is appropriate. Blank indicates a blank app.
+- Continue with **Step 3** of the Ionic getting started guide. Make sure the default app runs without any errors.
+- Download the contents of this repository and then copy the contents of the `www` directory into your new project's `www` directory. Make sure all the files are copied over.
+- If all goes well with Step 3, then in your project's config.xml change `<content src="index.html" />` to point to either `tabbed.html` or `fullscreen.html`. In Android, this file is under `/res/xml/config.xml`.
 
 ## Proof
 ![example-screen](https://raw.github.com/jwasilgeo/ionic-esri-map/master/example-screen.PNG)
