@@ -1,13 +1,19 @@
 # ionic-esri-map
-An Ionic app demonstrating how to use the Esri ArcGIS API for JavaScript.
+An Ionic app **demonstrating** how to use the Esri ArcGIS API for JavaScript.
 
-_This is a work in progress._
+**_This is a work in progress._**
 
 ## Guidance
+- This is intended for use with v3.16+ of the ArcGIS API for JavaScript. v4.0+ is not currently supported.
+
 - Use [Esri/angular-esri-map](https://github.com/Esri/angular-esri-map) to enable Esri mapping within an Ionic (AngularJS) app.
-  - **Esri** and **angular-esri-map** js + css resources have been added to [index.html](https://github.com/jwasilgeo/ionic-esri-map/blob/master/www/index.html).
-  - An `<esri-map>` directive has been added to a [template](https://github.com/jwasilgeo/ionic-esri-map/blob/master/www/templates/tab-esri.html) and optionally given more functionality via a corresponding [controller](https://github.com/jwasilgeo/ionic-esri-map/blob/master/www/js/controllers.js#L5).
-  - A Content Security Policy (CSP) has also been established in the [index.html](https://github.com/jwasilgeo/ionic-esri-map/blob/master/www/index.html). More info on CSP [here](https://developers.arcgis.com/javascript/jshelp/inside_phonegap.html#Privacy_Security_and_Whitelists_427).
+
+  - **Esri** and **angular-esri-map** js + css resources have been added to the initial html page. See [fullscreen.html](https://github.com/jwasilgeo/ionic-esri-map/blob/master/www/fullscreen.html) or [tabbed.html](https://github.com/jwasilgeo/ionic-esri-map/blob/master/www/tabbed.html).
+
+  - An `<esri-map>` directive has been added to the html, either by a [template](https://github.com/jwasilgeo/ionic-esri-map/blob/master/www/templates/tab-esri.html) for the tabbed example, or directly in fullscreen.html in the full screen example. Keep in mind that this directive can be given more functionality via a corresponding controller.
+
+- A Content Security Policy (CSP) has also been established in the initial html page. More info on CSP [here](https://developers.arcgis.com/javascript/jshelp/inside_phonegap.html#Privacy_Security_and_Whitelists_427).
+
 - See [Esri/quickstart-map-phonegap](https://github.com/Esri/quickstart-map-phonegap) for additional info and ideas.
 
 ## Development
